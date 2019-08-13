@@ -1,0 +1,20 @@
+{
+  "name": "nlw_emergency_break",
+  "version": "1.0.0",
+  "description": "A simple application to monitor running Neoload tests and terminate them as needed.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "stop": "taskkill -F -IM node.exe"
+  },
+  "author": "Adam Koewler",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "axios": "^0.19.0",
+    "moment": "^2.24.0",
+    "winston": "^3.2.1"
+  }
+}
